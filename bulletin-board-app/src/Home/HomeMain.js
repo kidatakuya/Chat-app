@@ -1,12 +1,11 @@
-
 import logo from './../logo.svg';
 import './../sass/App.scss';
 import './../sass/SignMain.scss';
-import SignForm from './SignForm';
+// import SignForm from './SignForm';
 
 function App() {
   return ( 
-      <main className="sign-main">
+      <main className="home-main">
           <div class="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
             <div class="max-w-md w-full space-y-8">
                 <div>
@@ -21,7 +20,7 @@ function App() {
                     </a>
                 </p>
                 </div>
-                <SignForm />
+                
             </div>
         </div>
       </main>
